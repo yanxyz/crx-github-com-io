@@ -1,0 +1,17 @@
+# help: https://help.github.com/articles/ignoring-files
+
+
+# Node modules
+node_modules
+npm-debug.log
+
+# Editor
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+.cache
+
