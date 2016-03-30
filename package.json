@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "crx-github-com-io",
+  "version": "1.0.0",
+  "description": "A Chrome extension for switching between the repository page (`https://github.com/:user/:repo`) and the project page (`https://:user/github.io/:repo`) on github.",
+  "standard": {
+    "globals": [
+      "chrome",
+      "URL"
+    ]
+  },
+  "scripts": {
+    "zip": "rm -f app.zip && zip -q -r app.zip app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanxyz/crx-github-com-io.git"
+  },
+  "author": "Ivan Yan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanxyz/crx-github-com-io/issues"
+  },
+  "homepage": "https://github.com/yanxyz/crx-github-com-io#readme"
+}

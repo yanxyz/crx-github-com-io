@@ -1,24 +1,24 @@
 {
   "manifest_version": 2,
   "name": "Github COM/IO",
-  "version": "1.0",
-  "description": "switch between the repository page and the project page on github.",
+  "version": "1.1.0",
+  "description": "Switch between the repository page and the project page on github.",
   "icons": {
-    "128": "icon-128.png"
+    "128": "icons/128.png"
   },
   "author": "Ivan Yan",
   "homepage_url": "https://github.com/yanxyz/crx-github-com-io",
-  "minimum_chrome_version": "44",
+  "minimum_chrome_version": "49",
   "page_action": {
-    "default_icon": {
-      "38": "icon-38.png"
-    }
   },
   "background": {
-    "scripts": ["background.js"],
+    "scripts": [
+      "js/background.js"
+    ],
     "persistent": false
   },
   "permissions": [
+    "declarativeContent",
     "tabs"
   ]
 }
